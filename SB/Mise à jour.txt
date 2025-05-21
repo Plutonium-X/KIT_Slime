@@ -1,0 +1,9 @@
+V2 :
+- Mise à jour pour BGEE, BG2EE, EET et IWDEE.
+- Traduction en français.
+- Changement du CLABFI06.2DA qui pouvait rentrer en conflit avec d'autre mods en CLABSB.2DA.
+- Ajout d'un texte descriptif aux deux objets reçus (ils n'en avaient pas et n'en ont pas en coréen)
+- Ajout de la lenteur aux deux dernière armes (elle perdaient cet effet sans jds au profit d'un effet d'immobilisation avec jds, c'est illogique. Ça devient lenteur sans jds + immobilisation avec jds)
+- Passage en "no string" de tous les objets/sorts qui avaient un numéro en 90K et avaient un nom bizarre en cas d'installation sur BG2EE.
+- Ajout d'un script (piqué au chantelame) pour que l'armure qu'il reçoit au niveau 2 ne soit pas supprimée dans le donjon d'Irenicus
+- Il y a un fichier a#ghaun7.spl (qui réduit la réputation de 1 point) qui est inutilisé. Je ne sais pas quoi en faire.

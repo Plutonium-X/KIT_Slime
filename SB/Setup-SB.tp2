@@ -1,0 +1,86 @@
+// 폴더 지정 항목
+BACKUP ~SB/Backup~
+AUTHOR ~JB,CHOI~
+README ~SB/Readme.txt~
+
+// 언어
+LANGUAGE ~한국어~
+         ~korean~
+         ~SB/language/korean/setup-sb.tra~
+		 
+LANGUAGE ~Francais~
+         ~french~
+         ~SB/language/French/setup-sb.tra~
+		 
+LANGUAGE ~Francais pour les editions EE~
+         ~frenchEE~
+         ~SB/language/FrenchEE/setup-sb.tra~
+
+// 키트 추가
+BEGIN @1
+REQUIRE_PREDICATE (FILE_EXISTS_IN_GAME ~Data/25Dialog.bif~) @2
+
+ADD_KIT ~SB~
+
+// 무기 사용 가능, CLASWEAP.2da 참고
+~SB                    1           0           1           0           0           1           1           0~
+
+// 무기 숙련도, WEAPPROF.2da 참고
+~SB    1 1 0 0 3 3 1 0 1 1 1 1 0 1 1 3 3 3 0 0 3 3 0 0 0 0 0 0 0 2 2 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0~
+
+// 최소 능력치, ABCLASRQ.2da 참고
+~SB                    12     12      15       0       0      0~
+
+// 능력치 변동, ABCLSMOD.2da 참고
+~SB                    -1     0      1       -3       -3      -3~
+
+// 이 키트로 듀얼하기 위한 최소치, ABDCDSRQ.2da 참고
+~SB                    0     0      17     0      0      0~
+
+// 이 키트에서 듀얼하기 위한 최소치, ABDCSCRQ.2da 참고
+~SB                    0     0      0       0       0      0~
+
+// 가치관, ALIGNMNT.2da 참고
+~SB            0       0       0       0       0       1       0       0       1~
+
+// 듀얼클래스 가능 여부, DUALCLAS.2da 참고
+~SB                  0       0       0       0       0       0~
+
+// 키트 어빌리티 2DA
+~SB/table/CLABSB.2da~
+
+// 종족 및 클래스 설정, KITTABLE.2da 참고
+~K_F_H K_F_D K_F_G K_F_E K_F_HE K_F_HL K_F_HO~
+
+// 아이템 사용불가 플래그 및 메인 클래스, KITLIST.2da 참고
+~0x10000000     2~
+
+// 하이어빌
+~Fi0~
+
+// ToB 시작장비, 25STWEAP.2da 참고, 축적가능한 아이템은 아이템 코드,숫자로 입력. 빈공간은 *로 입력
+~* * HELM19 BAG22 RING06 RING29 CLCK02 BOOT01 AMUL19 * BELT06 * * * POTN52,5 POTN04,2 POTN14,5 HAMM07 SW1H27 *~ 
+
+// 키트명 및 설명, KITLIST.2da 참고
+SAY @3
+SAY @3
+SAY @4
+
+ACTION_IF GAME_IS ~BG2 TOB BGT BG2EE EET~ THEN BEGIN
+	EXTEND_BOTTOM ~AR0602.BCS~ ~SB/Scripts/AR0602.BAF~
+END
+
+ACTION_IF GAME_IS ~BGEE BG2EE IWDEE EET~ THEN BEGIN
+	INCLUDE ~SB/Scripts/fl#add_kit_ee.tpa~
+	LAF fl#add_kit_ee	STR_VAR kit_name = SB	END
+	COPY ~SB/Portraits/BG2EE~ ~override~
+END
+ACTION_IF GAME_IS ~BG2 TOB BGT~ THEN BEGIN
+	COPY ~SB/Portraits/BG2~ ~override~
+END
+
+// 리소스 전체 복사
+COPY ~SB/spell~ ~override~
+COPY ~SB/table~ ~override~
+COPY ~SB/items/robeofsv.itm~ ~override~	SAY NAME2 @5	SAY DESC @6
+COPY ~SB/items/holysybl.itm~ ~override~	SAY NAME2 @7	SAY DESC @8

@@ -1,0 +1,59 @@
+IF
+	Global("TakeImportItems","AR0602",1)
+	Kit(Player1,SB)
+	Global("Slimeverif1","AR0602",0)
+THEN
+	RESPONSE #100
+		GiveItemCreate("robeofsv",Player1,1,0,0)
+		SetGlobal("Slimeverif1","AR0602",1)
+END
+
+IF
+	Global("TakeImportItems","AR0602",1)
+	Kit(Player2,SB)
+	Global("Slimeverif2","AR0602",0)
+THEN
+	RESPONSE #100
+		GiveItemCreate("robeofsv",Player2,1,0,0)
+		SetGlobal("Slimeverif2","AR0602",1)
+END
+
+IF
+	Global("TakeImportItems","AR0602",1)
+	Kit(Player3,SB)
+	Global("Slimeverif3","AR0602",0)
+THEN
+	RESPONSE #100
+		GiveItemCreate("robeofsv",Player3,1,0,0)
+		SetGlobal("Slimeverif3","AR0602",1)
+END
+
+IF
+	Global("TakeImportItems","AR0602",1)
+	Kit(Player4,SB)
+	Global("Slimeverif4","AR0602",0)
+THEN
+	RESPONSE #100
+		GiveItemCreate("robeofsv",Player4,1,0,0)
+		SetGlobal("Slimeverif4","AR0602",1)
+END
+
+IF
+	Global("TakeImportItems","AR0602",1)
+	Kit(Player5,SB)
+	Global("Slimeverif5","AR0602",0)
+THEN
+	RESPONSE #100
+		GiveItemCreate("robeofsv",Player5,1,0,0)
+		SetGlobal("Slimeverif5","AR0602",1)
+END
+
+IF
+	Global("TakeImportItems","AR0602",1)
+	Kit(Player6,SB)
+	Global("Slimeverif6","AR0602",0)
+THEN
+	RESPONSE #100
+		GiveItemCreate("robeofsv",Player6,1,0,0)
+		SetGlobal("Slimeverif6","AR0602",1)
+END
