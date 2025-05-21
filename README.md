@@ -67,13 +67,13 @@ Cette capacité transforme le Mutant de gelée en Gelée moutarde qui attaque à
 
 Inconvénients :
 
-- Ne peut que devenir maître avec les dagues et les armes contondantes.
-- Ne peut pas utiliser d'armes a deux mains ou d'armes à distance.
-- Ne peut pas se jumeler.
-- Ne peut pas porter d'armure.
 - -1 en force et -3 en Intelligence, Sagesse et Charisme.
-- Ne peut être que Neutre-Mauvais ou et Chaotique-Mauvais.
+- Il ne peut que devenir maître avec les dagues et les armes contondantes.
+- Il ne peut pas utiliser d'armes à deux mains ou d'armes à distance.
+- Il ne peut pas se jumeler.
+- Il ne peut pas porter d'armure.
+- Il ne peut être que Neutre-Mauvais ou et Chaotique-Mauvais.
 - Quand il est transformé en gelée son mouvement est amoindri.
-- La gélification entraîne un changement de sexe en androgyne (cela peut perturber les romances).
+- La gélification entraîne un changement de sexe en androgyne (cela peut perturber les romances).~
 
 Note : L'arme de sa forme de gelée moutarde utilise la compétence Dague. Devenez maître avec les dagues pour encore plus de DPS.
