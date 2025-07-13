@@ -68,7 +68,7 @@ Cette capacité transforme le Mutant de gelée en Gelée moutarde qui attaque à
 Inconvénients :
 
 - -1 en force et -3 en Intelligence, Sagesse et Charisme.
-- Il ne peut que devenir maître avec les dagues et les armes contondantes.
+- Il ne peut devenir maître qu'avec les dagues et les armes contondantes.
 - Il ne peut pas utiliser d'armes à deux mains ou d'armes à distance.
 - Il ne peut pas se jumeler.
 - Il ne peut pas porter d'armure.
