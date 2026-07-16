@@ -77,3 +77,84 @@ Inconvénients :
 - La gélification entraîne un changement de sexe en androgyne (cela peut perturber les romances).~
 
 Note : L'arme de sa forme de gelée moutarde utilise la compétence Dague. Devenez maître avec les dagues pour encore plus de DPS.
+
+------------------------------------------
+
+# Jelly Mutant Kit (Warrior) (No English translation is included in the mod)
+Advantages
+
+- +1 to Constitution.
+- +1 to saving throws; +1 every 4 levels thereafter.
+- At level 2, and every 2 levels thereafter up to level 30, the character can transform into Mustard Jelly.
+- At level 2: +35% resistance to magical damage.
+- At level 2: Free action; immunity to poison, disease, blindness, sleep, and mental attacks.
+- At level 2: His skin turns green and his portrait changes.
+- At Level 2: He receives the Cursed Robe of the Pit.
+- At Level 10: Regenerates 1 hit point every 2 seconds.
+- At Levels 10, 20, and 30: +1 to Armor Class.
+- At level 17: He receives the Sacred Symbol of Ghaunadaur.
+
+TRANSFORMATION INTO MUSTARD JELLY:
+
+This ability transforms the Jelly Mutant into Mustard Jelly, which attacks from a distance and has numerous advantages that evolve with the mutant’s level:
+   
+ *Level 2: 
+- Strength, Dexterity, and Stamina: +1
+- Armor Class: +2
+- Its attacks deal 1d6+1 points of piercing damage (plus the Strength bonus)
+- TAC0: +1
+
+*Level 5: 
+- Strength, Dexterity, and Stamina: +1
+- Armor Class: +3
+- Its attacks deal 1d8+2 piercing damage (plus the Strength bonus)
+- AC0: +2
+
+ *Level 8: 
+- Strength, Dexterity, and Stamina: +2
+- Armor Class: +4
+- Its attacks deal 1d12+3 piercing damage (plus the Strength bonus) and slow the target
+- TAC0: +3
+                   
+ *Level 10: 
+- Strength, Dexterity, and Constitution: +2
+- Armor Class: +4
+- Its attacks deal 1d15+4 piercing damage (plus the Strength bonus) and slow the target
+- Its attacks have a 5% chance to create a Level 7 Mustard Gel from the target’s cells
+- TAC0: +4
+
+ *Level 15: 
+- Strength +3, Dexterity, and Stamina: +4
+- Armor Class: +5
+- Its attacks deal 2D8+5 piercing damage (plus Strength bonus) and slow the target
+- Its attacks have a 10% chance to create a Level 7 Mustard Gel from the target’s cells
+- Immune to nonmagical weapons, electricity, and the Magic Projectile spell
+- TAC0: +5
+
+ *Level 19:  
+- Strength +4, Dexterity and Constitution: +5
+- Armor Class: +6
+- Its attacks deal 2D12+6 piercing damage (plus the Strength bonus), slow the target, and immobilize it if it fails a saving throw against poison
+- His attacks have a 15% chance to create a 7th-level Mustard Gel from the target’s cells
+- Immunity to nonmagical and +1 magical weapons, electricity, and magical projectile spells
+- TAC0: +6
+
+ *Level 24: 
+- Strength, Dexterity, and Stamina: +5
+- Armor Class: +7
+- Its attacks deal 2D15+7 points of piercing damage (plus the Strength bonus), slow the target, and immobilize it if it fails a saving throw against poison
+- His attacks have a 20% chance to create a 7th-level Mustard Gel from the target’s cells
+- Immunity to nonmagical and +1 and +2 magical weapons, electricity, and the Magic Projectile spell
+- AC0: +7
+
+Drawbacks:
+- -1 to Strength and -3 to Intelligence, Wisdom, and Charisma.
+- He can only become a master with daggers and bludgeoning weapons.
+- He cannot use two-handed weapons or ranged weapons.
+- He cannot dual class.
+- He cannot wear armor.
+- He can only be Neutral Evil or Chaotic Evil.
+- When transformed into jelly, his movement speed is reduced.
+- Being turned into jelly causes a gender change to androgynous (this may disrupt romantic relationships).~
+
+Note: The weapon in his mustard-colored jelly form uses the Dagger skill. Become a master with daggers for even more DPS.
